@@ -1,0 +1,24 @@
+# EndPoints for All API
+
+1) Auth Module :- 
+
+Signin(POST) => localhost:3000/auth/signin
+Signup(POST => localhost:3000/auth/signup
+
+
+2) Tasks Module :-
+
+Create a task (POST) => localhost:3000/tasks
+Get all tasks (GET) => localhost:3000/tasks/?status=OPEN&search=yeah
+Get task by ID (GET) => localhost:3000/tasks/:id
+Update task status (PATCH) => localhost:3000/tasks/:id/status
+Get filter and search (GET) => localhost:3000/tasks?status=IN_PROGRESS&search=Scrum
+Get task with filter and search (GET) => localhost:3000/tasks?status=OPEN&search=Scrum
+Delete a task (DELETE) => localhost:3000/tasks/:id
+
+
+# Create data Sample :
+{
+"title": "yeahh",
+"description": "Yeahhhhhhhhhhhh"
+}
